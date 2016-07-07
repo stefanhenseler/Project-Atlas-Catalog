@@ -1,0 +1,5 @@
+name: Jenkins for Glencore
+version: 2.0.0-rancher1
+description: The Jenkins Continuous Integration and Delivery server
+maintainer: Stefan Henseler <stefan.henseler@synax.ch>
+category: Continuous Integration

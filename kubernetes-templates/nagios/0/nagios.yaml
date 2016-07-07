@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: nagios
+  labels:
+    heritage: helm
+spec:
+  replicas: ${REPLICAS}
+  selector:
+    app: nagios
+  template:
+    metadata:
+      labels:
+        heritage: helm
+        app: nagios
+    spec:
+      containers:
+      - name: nagios
+        image: "quantumobject/docker-nagios"
+        ports:
+        - containerPort: 80

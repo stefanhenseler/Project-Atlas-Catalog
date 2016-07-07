@@ -1,0 +1,5 @@
+name: Nagios for Glencore
+version: 2.0.0-rancher1
+description: Nagios is the Industry Standard in IT Infrastructure Monitoring
+maintainer: Stefan Henseler <stefan.henseler@synax.ch>
+category: Monitoring
